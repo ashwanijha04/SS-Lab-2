@@ -2,27 +2,20 @@
    
 
    
-   ## Steps to compile and run Lex programs
+   ### Steps to compile and run Lex programs
    
-   ### Step-1 
-   **lex file_name.l**
+   - **lex file_name.l**
    
-   ### Step-2 
-   **cc lex.yy.c -ll**
+   - **cc lex.yy.c -ll**
+  
+   - **./a.out**
    
-   ### Step-3 
-   **./a.out**
+   ### Steps to compile and run Yacc programs
    
-   ## Steps to compile and run Yacc programs
+   - **lex file_name.l**
    
-   ### Step-1 
-   **lex file_name.l**
+   - **yacc -d file_name.y**
    
-   ### Step-2 
-   **yacc -d file_name.y**
+   - **cc lex.yy.c y.tab.c -ll -ly**
    
-   ### Step-3 
-   **cc lex.yy.c y.tab.c -ll -ly**
-   
-   ### Step-4 
-   **./a.out**
+   - **./a.out**

@@ -2,7 +2,7 @@
    **Before Starting you first need to install _flex_ and _bison_ packages** 
 
    
-   ### Steps to compile and run Lex programs
+   ### Steps to compile and run Lex programs in terminal
    
    - **lex file_name.l**
    
@@ -10,7 +10,7 @@
   
    - **./a.out**
    
-   ### Steps to compile and run Yacc programs
+   ### Steps to compile and run Yacc programs in terminal
    
    - **lex file_name.l**
    

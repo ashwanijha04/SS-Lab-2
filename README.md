@@ -1,5 +1,5 @@
 # SS-Lab-2
-   
+   **Before Starting you first need to install _flex_ and _bison_ packages** 
 
    
    ### Steps to compile and run Lex programs

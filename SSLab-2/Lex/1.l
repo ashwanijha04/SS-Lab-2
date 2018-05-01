@@ -5,9 +5,15 @@
 %}
 
 %%
+// Anything other than spaces or new line is a word
+// Length of the word is the number of characters
 
 [^ \t\n]+ { chars+=yyleng;words++;}
+
+// New line
 [\n] { lines++; }
+
+// Spaces
 [ \t]+ {spaces+=yyleng;}
 
 
